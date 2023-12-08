@@ -1,3 +1,20 @@
+
+# MAC OSX Terminal AutoCompletion
+
+Lost configuration for AutoCompletion on Mac Terminal
+
+
+## Configuration
+
+Open terminal & type:
+
+```bash
+nano ~/.zshenv
+```
+
+Paste the following
+
+```bash
 #******************************************************************************************
 # From http://zshwiki.org/home/examples/compquickstart
 zmodload zsh/complist
@@ -19,3 +36,6 @@ zstyle ':completion:*' menu select
 zstyle ':completion:*' verbose yes
 
 #******************************************************************************************
+```
+Save (CTRL+O)
+Exit (CTRL+C)
